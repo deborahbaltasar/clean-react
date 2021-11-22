@@ -9,9 +9,10 @@
     "plugin:react/recommended"
   ],
   "plugins": ["react"],
+  "files": [".ts", "*.tsx"], // Your TypeScript files extension
   "parserOptions": {
     "project": "./tsconfig.json"
-  },
+  },  
   "rules": {
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
